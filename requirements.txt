@@ -1,0 +1,9 @@
+streamlit
+transformers
+sentence-transformers
+PyMuPDF
+chromadb
+torch
+fugashi
+ipadic
+sentencepiece
