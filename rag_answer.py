@@ -1,6 +1,7 @@
 import streamlit as st
 from sentence_transformers import SentenceTransformer
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+import chromadb
 from chromadb.config import Settings
 import torch
 
