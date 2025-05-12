@@ -1,8 +1,13 @@
 import streamlit as st
 from sentence_transformers import SentenceTransformer
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
-import chromadb
+from chromadb.config import Settings
 import torch
+
+client = chromadb.PersistentClient(
+    path="vectorstore/chroma_db",
+    settings=Settings(allow_reset=True, anonymized_telemetry=False)
+)
 
 # タイトルのみ表示
 st.set_page_config(page_title="RAG QA Demo", layout="centered")
