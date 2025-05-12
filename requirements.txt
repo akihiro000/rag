@@ -1,9 +1,6 @@
 streamlit
-transformers
+chromadb==0.4.15
+protobuf<4.0.0
 sentence-transformers
-PyMuPDF
-chromadb
 torch
-fugashi
-ipadic
-sentencepiece
+transformers
