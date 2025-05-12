@@ -23,12 +23,13 @@
 
 ## ⚙️ 使用技術
 
+- ## ⚙️ 使用技術
 - Python
-- [PyMuPDF](https://pymupdf.readthedocs.io/)：PDFからテキスト抽出
-- [sentence-transformers](https://www.sbert.net/)：テキスト埋め込みベクトル化
-- [ChromaDB](https://docs.trychroma.com/)：ベクトルデータベース
-- [rinna/japanese-gpt2-medium](https://huggingface.co/rinna/japanese-gpt2-medium)：日本語LLM
-- [Streamlit](https://streamlit.io/)：WebベースUI
+- PyMuPDF：PDFからテキストを抽出
+- sentence-transformers：テキストをベクトルに変換（検索用）
+- ChromaDB：ベクトルデータベースとして類似文検索を実現
+- google/flan-t5-base：質問応答用の自然言語生成モデル（英語対応LLM）
+- Streamlit：Webベースのユーザーインターフェース
 
 ---
 
