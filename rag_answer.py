@@ -5,10 +5,7 @@ import chromadb
 from chromadb.config import Settings
 import torch
 
-client = chromadb.PersistentClient(
-    path="vectorstore/chroma_db",
-    settings=Settings(allow_reset=True, anonymized_telemetry=False)
-)
+client = chromadb.EphemeralClient()
 
 # タイトルのみ表示
 st.set_page_config(page_title="RAG QA Demo", layout="centered")
