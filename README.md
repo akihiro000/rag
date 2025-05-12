@@ -17,7 +17,7 @@ PDFをベースに、Streamlit UIから質問を入力することで、該当�
 
 ## 🖥 イメージ
 
-![screenshot](./images/screenshot.png)
+https://github.com/user-attachments/assets/3376d636-4ec0-456e-b0c7-2e058c69a7ce
 
 ---
 
