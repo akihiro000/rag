@@ -15,7 +15,7 @@ collection = client.get_or_create_collection(name="pdf_chunks")
 # UI設定
 st.set_page_config(page_title="PDF質問AI", page_icon="📄")
 st.title("📄 PDFから答えるAI")
-st.markdown("精密栄養学PDFに基づいて、質問に答えます。")
+st.markdown("PDFに基づいて、質問に答えます。")
 
 # 入力フォーム
 query = st.text_input("質問を入力してください")
